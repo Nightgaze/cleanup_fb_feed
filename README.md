@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Tampermonkey script designed to enhance your Facebook browsing experience by cleaning up and customizing your Facebook feed. The script, named `cleanup_fb_feed.js`, removes unwanted elements, streamlines the layout, and offers a more focused and clutter-free Facebook feed.
+This repository contains a Tampermonkey script designed to enhance your Facebook browsing experience by cleaning up your Facebook feed. The script, named `cleanup_fb_feed.js`, removes unwanted elements and offers a more focused and clutter-free Facebook feed.
 
 ![image](https://github.com/Nightgaze/cleanup_fb_feed/assets/10233435/79d9bd26-6d7f-49ab-a09d-988d344aac52)
 
