@@ -52,9 +52,6 @@ This repository contains a Tampermonkey script designed to enhance your Facebook
 
 Once installed, the script will automatically run when you visit Facebook. Enjoy a cleaner and more streamlined feed without unnecessary elements.
 
-## Customization
-
-Feel free to customize the script to suit your preferences. Edit the `cleanup_fb_feed.js` file directly in Tampermonkey or modify the script according to your needs.
 
 ## Contributing
 
@@ -66,4 +63,4 @@ This Tampermonkey script is licensed under the [MIT License](LICENSE). See the [
 
 ---
 
-Thank you for using the Facebook Feed Cleanup Tampermonkey script! If you have any issues or suggestions, please open an [issue](../../issues) in this repository.
+Thank you for using the Facebook Feed Cleanup Tampermonkey script!
