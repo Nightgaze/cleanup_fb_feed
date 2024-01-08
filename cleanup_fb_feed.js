@@ -11,11 +11,8 @@
 
 (function() {
     'use strict';
-    // Colour the ads.
     $(document).ready(function() {
-        // Create some fun functions
         var replacement = '<div style="color:grey;text-align:center;">Ad Removed<div>';
-        //var replacement = '';
         var hideAd = function() {
             $("span:contains('Suggested Post')").parent().parent().parent().replaceWith(replacement);
             $("span:contains('Suggested for you')").parent().parent().parent().parent().parent().parent().replaceWith(replacement);
@@ -26,6 +23,7 @@
             $("span:contains('Follow')").parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().replaceWith(replacement);
             $("a:contains('Sponsored')").parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().replaceWith(replacement);
         };
+        hideAd();
         $(window).bind('mousewheel DOMMouseScroll', function(event) {
             hideAd();
         });
